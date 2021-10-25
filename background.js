@@ -15,6 +15,6 @@ const defaultFilters = [ //all the ads sites that will have their ad request blo
 
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) { return { cancel: true }}, //blocks request that we are sending
-    { urls: [defaultFilters] }, //urls that will be blocked (site thats providing the ads)
+    { urls: defaultFilters }, //urls that will be blocked (site thats providing the ads)
     ["blocking"]
 )
