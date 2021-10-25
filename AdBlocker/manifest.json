@@ -10,5 +10,6 @@
         "16x": "icons/logo_16x16.png",
         "48x": "icons/logo_48x48.png",
         "128x": "icons/logo_128x128.png"
-    }
+    },
+    "manifest_version": 2
 }
