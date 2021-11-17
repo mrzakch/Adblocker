@@ -11,5 +11,13 @@
         "48": "icons/logo_48x48.png",
         "128": "icons/logo_128x128.png"
     },
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+      ],
     "manifest_version": 2
 }
