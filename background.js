@@ -22,17 +22,13 @@ const defaultFilters = [ //all the ads sites that will have their ad request blo
 	"*://*.adbuffs.com/*",
 	"*://*.weborama.com/*",
 	"*://*.trustarc.com/*",
-	"*://*engineeringportal.nielsen.com/*",
-	"*://*meetrics.com/*",
-	"*://*integralads.com/*",
-	"*://*innovid.com/*",
-	"*://*site.adform.com/*",
-	"*://*adition.com/*",
-	
-
-
-
-	
+	"*://*.meetrics.com/*",
+	"*://*.integralads.com/*",
+	"*://*.innovid.com/*",
+	"*://*.site.adform.com/*",
+	"*://*.adition.com/*",
+	"*://*.engineeringportal.nielsen.com/*",
+		
 ]
 
 
