@@ -16,7 +16,7 @@
           "matches": [
             "*://*.reddit.com/*"
           ],
-          "js": ["content.js"]
+          "js": ["Reddit_PromotedPosts.js"]
         }
       ],
     "manifest_version": 2
