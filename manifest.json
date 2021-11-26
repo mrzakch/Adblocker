@@ -16,7 +16,7 @@
           "matches": [
             "*://*.reddit.com/*"
           ],
-          "js": ["content.js", "bestbuy.js"]
+          "js": ["Reddit_PromotedPosts.js", "BestBuy_FooterAds.js"]
         }
       ],
     "manifest_version": 2
