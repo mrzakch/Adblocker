@@ -2,6 +2,8 @@ const defaultFilters = [ //all the ads sites that will have their ad request blo
 	"*://*.doubleclick.net/*",
 	"*://partner.googleadservices.com/*",
 	"*://*.googlesyndication.com/*",
+	"*://*.google.com/afs/ads*",
+	"*://*.google.com/adsense*",
 	"*://*.google-analytics.com/*",
 	"*://creative.ak.fbcdn.net/*",
 	"*://*.adbrite.com/*",
