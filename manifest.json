@@ -2,7 +2,7 @@
     "name": "CSI3370 AdBlocker",
     "version": "1.0",
     "description": "Class Project AdBlocker",
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "contextMenus"],
     "background": {
         "scripts": ["background.js"]
     },
@@ -13,11 +13,9 @@
     },
     "content_scripts": [
         {
-          "matches": [
-            "*://*.reddit.com/*"
-          ],
-          "js": ["Reddit_PromotedPosts.js", "BestBuy_FooterAds.js"]
-        }
+          "matches": ["*://*/*"],
+          "js": ["Reddit_PromotedPosts.js", "BestBuy_FooterAds.js", "ContextMenu.js"]
+        },
       ],
     "manifest_version": 2
 }

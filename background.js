@@ -30,7 +30,6 @@ const defaultFilters = [ //all the ads sites that will have their ad request blo
 	"*://*.site.adform.com/*",
 	"*://*.adition.com/*",
 	"*://*.engineeringportal.nielsen.com/*",
-		
 ]
 
 
@@ -41,3 +40,11 @@ chrome.webRequest.onBeforeRequest.addListener(
     ["blocking"]
 	
 )
+
+chrome.contextMenus.create({
+    title: "Report Ad",
+    onclick: (info, tab) => {
+		chrome.tabs.sendMessage(tab.id, {"url":tab.url});
+	},
+	"contexts": ["all"]
+});
