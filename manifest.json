@@ -16,6 +16,6 @@
           "matches": ["*://*/*"],
           "js": ["Reddit_PromotedPosts.js", "BestBuy_FooterAds.js", "ContextMenu.js"]
         },
-      ],
+      ]
     "manifest_version": 2
 }
