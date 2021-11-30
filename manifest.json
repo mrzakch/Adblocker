@@ -13,17 +13,9 @@
     },
     "content_scripts": [
         {
-          "matches": [
-            "*://*.reddit.com/*"
-          ],
-          "js": ["Reddit_PromotedPosts.js"]
-        },
-        {
           "matches": ["*://*/*"],
-          "js": [
-            "ContextMenu.js"
-          ]
-        }
+          "js": ["Reddit_PromotedPosts.js", "BestBuy_FooterAds.js", "ContextMenu.js"]
+        },
       ],
     "manifest_version": 2
 }
